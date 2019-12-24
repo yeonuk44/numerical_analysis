@@ -23,4 +23,4 @@ for i in range(0,N):
     exact = g(t) # Exact_value
     error = abs(y - exact)
     relative_error = ((y - exact) / exact) * 100
-    print(t,"\t\t",y,"\t\t",exact,"\t\t",error,"\t\t"relative_error)
+    print("%1.1f\t\t"%t ,"%1.4f\t\t"%y ,"%1.4f\t\t"%exact ,"%1.4f\t\t"%error ,"%1.4f\t\t"%relative_error)
