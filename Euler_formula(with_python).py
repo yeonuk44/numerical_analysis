@@ -1,9 +1,9 @@
 import math
 
-a = 1.0 # first time
-b = 2.0 # final time
-N = 10 # time term
-alpha = 4.2 # initial value
+a = 1.0 # First time
+b = 2.0 # Final time
+N = 10 # Time term
+alpha = 4.2 # Initial value
 
 f = lambda t, y : ((-2 * y) * (1 / t)) + (t * t) # Differential equation
 g = lambda t : ((t * t * t) * (1 / 5)) + (4 * (1 / (t * t))) # Solution equation
