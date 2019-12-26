@@ -2,3 +2,4 @@
 numerical_analysis(with_python)
 
 ## Euler formula
+## Second & Forth Taylor series
